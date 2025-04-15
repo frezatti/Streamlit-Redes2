@@ -7,15 +7,13 @@ st.title("Filtro Dinâmico em Tabela")
 # Criar dados de exemplo
 @st.cache_data
 def load_data():
-    # Criar um dataframe de exemplo
-    np.random.seed(42)
-    data = {
-        'Cidade': np.random.choice(['São Paulo', 'Rio de Janeiro', 'Belo Horizonte', 'Salvador', 'Brasília'], 100),
-        'Categoria': np.random.choice(['A', 'B', 'C', 'D'], 100),
-        'Vendas': np.random.randint(1000, 10000, 100),
-        'Avaliação': np.random.uniform(1, 5, 100).round(1)
-    }
-    return pd.DataFrame(data)
+ try:
+        df = pd.read_csv('products_data.csv')
+        return df
+ except FileNotFoundError:
+        st.error("Arquivo 'products_data.csv' não encontrado. Verifique se o arquivo está no diretório correto.")
+        # Return an empty DataFrame or fallback to sample data
+        return pd.DataFrame()
 
 df = load_data()
 

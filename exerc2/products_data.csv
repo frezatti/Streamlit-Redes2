@@ -1,0 +1,21 @@
+product_id,product_name,category,price,stock,city,rating
+1001,Smartphone X,Electronics,899.99,45,São Paulo,4.7
+1002,Cotton T-shirt,Clothing,19.99,120,Rio de Janeiro,4.2
+1003,Coffee Maker,Home Appliances,59.99,30,Belo Horizonte,4.5
+1004,Running Shoes,Footwear,79.99,55,Brasília,4.8
+1005,Laptop Pro,Electronics,1299.99,18,São Paulo,4.9
+1006,Blender Ultra,Home Appliances,39.99,42,Curitiba,4.0
+1007,Jeans Classic,Clothing,49.99,85,Rio de Janeiro,4.3
+1008,Smart Watch,Electronics,199.99,37,Porto Alegre,4.6
+1009,Toaster,Home Appliances,29.99,62,Salvador,3.9
+1010,Dress Shirt,Clothing,34.99,73,Fortaleza,4.1
+1011,Tablet Mini,Electronics,349.99,23,São Paulo,4.4
+1012,Sandals Comfort,Footwear,24.99,91,Recife,4.0
+1013,Microwave Oven,Home Appliances,89.99,15,Belo Horizonte,4.2
+1014,Wireless Earbuds,Electronics,129.99,40,Brasília,4.7
+1015,Winter Jacket,Clothing,79.99,28,Curitiba,4.3
+1016,Gaming Console,Electronics,449.99,12,São Paulo,4.9
+1017,Air Fryer,Home Appliances,79.99,31,Porto Alegre,4.5
+1018,Hiking Boots,Footwear,99.99,22,Manaus,4.4
+1019,Designer Bag,Accessories,199.99,14,Rio de Janeiro,4.8
+1020,Smart TV,Electronics,599.99,9,Salvador,4.6

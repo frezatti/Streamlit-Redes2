@@ -1,0 +1,82 @@
+version: '3.8'
+
+services:
+  exerc1:
+    build: ./exerc1
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./exerc1:/app
+    container_name: streamlit-exerc1
+
+  exerc2:
+    build: ./exerc2
+    ports:
+      - "8502:8501"
+    volumes:
+      - ./exerc2:/app
+    container_name: streamlit-exerc2
+
+  exerc3:
+    build: ./exerc3
+    ports:
+      - "8503:8501"
+    volumes:
+      - ./exerc3:/app
+    container_name: streamlit-exerc3
+
+  exerc4:
+    build: ./exerc4
+    ports:
+      - "8504:8501"
+    volumes:
+      - ./exerc4:/app
+    container_name: streamlit-exerc4
+
+  exerc5:
+    build: ./exerc5
+    ports:
+      - "8505:8501"
+    volumes:
+      - ./exerc5:/app
+    container_name: streamlit-exerc5
+
+  exerc6:
+    build: ./exerc6
+    ports:
+      - "8506:8501"
+    volumes:
+      - ./exerc6:/app
+    container_name: streamlit-exerc6
+
+  exerc7:
+    build: ./exerc7
+    ports:
+      - "8507:8501"
+    volumes:
+      - ./exerc7:/app
+    container_name: streamlit-exerc7
+
+  exerc8:
+    build: ./exerc8
+    ports:
+      - "8508:8501"
+    volumes:
+      - ./exerc8:/app
+    container_name: streamlit-exerc8
+
+  exerc9:
+    build: ./exerc9
+    ports:
+      - "8509:8501"
+    volumes:
+      - ./exerc9:/app
+    container_name: streamlit-exerc9
+
+  exerc10:
+    build: ./exerc10
+    ports:
+      - "8510:8501"
+    volumes:
+      - ./exerc10:/app
+    container_name: streamlit-exerc10
